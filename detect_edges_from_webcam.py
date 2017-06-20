@@ -1,7 +1,5 @@
 # import the necessary packages
 import numpy as np
-import argparse
-import glob
 import cv2
 cap_stream = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'H264')
